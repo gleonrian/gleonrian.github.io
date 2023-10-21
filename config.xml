@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<name short="E-book">
+E-book
+</name>
+<description>
+Historia
+</description>
+<author>
+Gerardo
+</author>
+<content src="index.html"/>
+<access origin="*"/>
+<gap:platform name="android"/>
+<gap:platform name="ios"/>
+<gap:platform name="winphone"/>
+<preference name="orientation" value="default" />
+<preference name="android-MediaPlaybackRequiresUserAction" value="false" />
+<preference name="android-AllowInlineMediaPlayback" value="true" />
+<feature name="http://api.phonegap.com/1.0/device" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<gap:plugin name="cordova-plugin-device" source="npm" />
+<gap:plugin name="cordova-plugin-media" source="npm" />
+<gap:plugin name="cordova-plugin-device-orientation" source="npm" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+</widget>
